@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Set your Telnyx API credentials and phone numbers
 TELNYX_API_KEY = 'KEY' # Your Telnyx key
-TELNYX_PHONE_NUMBER = '+14016188903' # Your Telnyx phone number
+TELNYX_PHONE_NUMBER = '+number' # Your Telnyx phone number
 TELNYX_APP_PORT = '5000'
 # Function to send an MMS message
 def send_mms(to, body):
